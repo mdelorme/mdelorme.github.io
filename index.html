@@ -3,8 +3,13 @@ layout: default
 robots: noindex
 ---
 
-<!--<div class="main-post-list">-->
-
+<div class="main-post-list">
+  <h1>Research interests</h1>
+    {% for interest in site.data.interests %}
+    {{ interest.desc | markdownify }}<br/>
+    {% endfor %}
+  </div>
+  <h1>Projects</h1>
   <ul class="timeline">
     
     {% for project in site.data.projects %}
@@ -20,14 +25,12 @@ robots: noindex
           <div class="timeline-body">
             {{ project.desc | markdownify }}
             <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
-              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
-              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
-              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers">
-              <div style="height: 10px;"></div>
+            <div style="height: 10px;"></div>
           </div>
         </div>
       </li>
     {% endfor %}
+
     <!--
     <li class="timeline-inverted">
       <div class="timeline-image">
@@ -36,5 +39,12 @@ robots: noindex
     </li> -->
   </ul>
 
-<!--</div>-->
+
+  <h1>Selected Publications</h1>
+  <ul class="publications">
+  {% for publication in site.data.publications %}
+  <li>[<a href={{ publication.ads }}>ads</a>][<a href={{ publication.arxiv }}>arXiv</a>] {{ publication.desc | markdownify }} </li>
+  {% endfor %}
+
+</div>
 

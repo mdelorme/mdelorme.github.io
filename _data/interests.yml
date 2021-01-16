@@ -1,0 +1,13 @@
+- desc: My research interests are mostly focused on **simulation techniques for high performance computing** and **code coupling for multi-physics and multi-scale simulations**. I am mostly interested in finding ways to help astrophysicists to push the limits on their simulation codes. Be it by improving existing codes, by implementing new methods for more efficient simulation, or by coupling codes to extend the range of a simulation.
+- desc: "I am mainly interested in the following topics :
+
+  1. High-level abstractions for the separatation of concern in HPC.
+
+  1. Numerical schemes, their properties, and their parallel efficiency.
+  
+  1. Adaptive mesh-refinement, especially block-based AMR running on GPUs.
+  
+  1. Time parallel methods, such as Parareal.
+  
+  1. Code coupling and abstract-primitives for code coupling.
+"

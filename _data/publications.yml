@@ -1,0 +1,22 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- desc: "2020 - I. Nasim, A. Gualandris, J. Read, W. Dehnen, **M. Delorme**, F. Antonini. \"Defeating stochasticity: coalescence time-scales of massive black holes in galaxy mergers\". *Monthly Notices of the Royal Astronomy Society*, **497**(1)" 
+  ads: https://ui.adsabs.harvard.edu/abs/2020MNRAS.497..739N/abstract
+  arxiv: https://arxiv.org/abs/2004.14399
+
+- desc: "2020 - A. Gregory, M. Collins, D. Erkal, E. Tollerud, **M. Delorme**, L. Hill, D. Sand, J. Strader, B. Willman. \"Uncovering the orbit of the hercules dwarf galaxy\". *Monthly Notices of the Royal Society Academy*, **496**(2)"
+  ads: https://ui.adsabs.harvard.edu/abs/2020MNRAS.496.1092G/abstract
+  arxiv: https://arxiv.org/abs/1912.00156
+
+- desc: "2019 - J. Preston, M. Collins, R. Ibata, E. Tollerud, R. Rich, A. Bonaca, A. McConnachie, D. Mackey, G. Lewis, N. Martin, J. Peñarrubia, S. Chapman, **M. Delorme**. \"A dwarf disrupting – Andromeda XXVII and the North West Stream\", *Monthly Notices of the Royal Astronomy Society*, **490**(2), 2019"
+  ads: https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.2905P/abstract
+  arxiv: https://arxiv.org/abs/1909.09661
+
+- desc: "2018 - F. Contenta, E. Balbinot, J. Petts, J. Read, M. Gieles, M.Collins, J. Peñarrubia, **M. Delorme**, A. Gualandris. \"Probing dark matter with star clusters: a dark matter core in the ultra-faint dwarf Eridanus II\", *Monthly Notices of the Royal Astronomy Society*, **476**(3)"
+  ads: https://ui.adsabs.harvard.edu/abs/2018MNRAS.476.3124C/abstract
+  arxiv: https://arxiv.org/abs/1705.01820
+
+- desc: "2016 - A. Rojas-Niño, L. Aguilar, J. Read, **M. Delorme**. \"An efficient positive potential-density pair expansion for modelling galaxies\", *Monthly Notices of the Royal Astronomy Society*, **459**(3)"  
+  ads: https://ui.adsabs.harvard.edu/abs/2016MNRAS.459.3349R/abstract
+  arxiv: https://arxiv.org/abs/1604.03651
